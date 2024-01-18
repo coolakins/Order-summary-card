@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-mobile.svg"); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /*Set the height as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.order {
+  min-width: 375px;
+  width: 30%;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+.order-image {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.order-menu {
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: hsl(223, 47%, 23%);
+  padding: 10px;
+}
+p {
+  color: hsl(226, 13%, 67%);
+  font-size: 20px;
+  padding: 10px;
+  line-height: 2rem;
+}
+.order-music {
+  width: 100%;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-radius: 7px;
+}
+.order-music-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.order-music-image img {
+  height: 60px;
+}
+.order-music-image p {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+.order-music-image span {
+  color: hsl(226, 13%, 67%);
+}
+.order-music a {
+  font-weight: 700;
+}
+button {
+  width: 100%;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -5px 25px 45px -21px rgba(17, 50, 214, 1);
+  margin-bottom: 20px;
+}
+.span {
+  color: hsl(226, 13%, 67%);
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+}
+.order-music a:hover {
+  cursor: pointer;
+  font-weight: 500;
+  color: hsl(225, 80%, 68%);
+}
+button:hover {
+  cursor: pointer;
+  font-weight: 500;
+  background-color: hsl(225, 80%, 68%);
+}
+.span:hover {
+  cursor: pointer;
+  font-weight: 700;
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
